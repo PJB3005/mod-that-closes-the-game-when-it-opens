@@ -1,0 +1,7 @@
+{
+  "id": "systems.slugcat.modthatclosesthegamewhenitopens",
+  "name": "Mod that closes the game when it opens",
+  "version": "@PROJECT_VERSION@",
+  "author": "PJB3005",
+  "description": "You SHOULD install this mod"
+}
