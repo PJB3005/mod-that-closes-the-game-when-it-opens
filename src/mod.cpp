@@ -9,7 +9,11 @@ extern "C" {
 MOD_EXPORT ModResult mod_initialize(ModError*) {
     svc_log->info(mod_ctx, ":salute: emoji");
 
+#ifndef __linux__
     std::_Exit(0);
+#else
+    std::exit(0);
+#endif
 }
 
 MOD_EXPORT ModResult mod_update(ModError*) {
